@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e61818;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* Button styling */
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #ca20ca;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 20px;
+}
+
+/* Container styling using Flexbox */
+#container {
+    display: grid;
+    width: 750px; /* Total grid size (fixed) */
+    height: 500px; /* Total grid size (fixed) */
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    position:absolute;
+}
+
+#container div {
+    background-color: #f0d3d3;
+    ;
+}
+     img {
+    
+        max-width: 50%;
+        max-height: 30%
+        }
+
+.img1 {
+    
+        max-width: 50%;
+        max-height: 30%;
+        position: relative;
+        left: -400px;  /* Adjust this value to push the image further left */
+        top: 400px;    /* Adjust this value to push the image further down */
+
+}
+.img2 {
+    
+    max-width: 50%;
+    max-height: 30%;
+    position: relative;
+    left: 400px;  /* Adjust this value to push the image further left */
+    top: 400px;    /* Adjust this value to push the image further down */
+
+}
